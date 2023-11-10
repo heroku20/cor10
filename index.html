@@ -1,0 +1,2350 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cortexi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name='robots' content='max-image-preview:large' />
+    <title>Cortexi</title>
+    <link rel="alternate" type="application/rss+xml" title="Feed para Cortexi &raquo;" href="https://trycortexi.universalmarketweb.com/index.php/feed/" />
+    <link rel="alternate" type="application/rss+xml" title="Feed de comentários para Cortexi &raquo;" href="https://trycortexi.universalmarketweb.com/index.php/comments/feed/" />
+    <script>
+        window._wpemojiSettings = {
+            "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
+            "ext": ".png",
+            "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/",
+            "svgExt": ".svg",
+            "source": {
+                "concatemoji": "https:\/\/trycortexi.universalmarketweb.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.3.2"
+            }
+        };
+        /*! This file is auto-generated */
+        ! function(i, n) {
+            var o, s, e;
+
+            function c(e) {
+                try {
+                    var t = {
+                        supportTests: e,
+                        timestamp: (new Date).valueOf()
+                    };
+                    sessionStorage.setItem(o, JSON.stringify(t))
+                } catch (e) {}
+            }
+
+            function p(e, t, n) {
+                e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(t, 0, 0);
+                var t = new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data),
+                    r = (e.clearRect(0, 0, e.canvas.width, e.canvas.height), e.fillText(n, 0, 0), new Uint32Array(e.getImageData(0, 0, e.canvas.width, e.canvas.height).data));
+                return t.every(function(e, t) {
+                    return e === r[t]
+                })
+            }
+
+            function u(e, t, n) {
+                switch (t) {
+                    case "flag":
+                        return n(e, "\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f", "\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f") ? !1 : !n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e, "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f", "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");
+                    case "emoji":
+                        return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff", "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
+                }
+                return !1
+            }
+
+            function f(e, t, n) {
+                var r = "undefined" != typeof WorkerGlobalScope && self instanceof WorkerGlobalScope ? new OffscreenCanvas(300, 150) : i.createElement("canvas"),
+                    a = r.getContext("2d", {
+                        willReadFrequently: !0
+                    }),
+                    o = (a.textBaseline = "top", a.font = "600 32px Arial", {});
+                return e.forEach(function(e) {
+                    o[e] = t(a, e, n)
+                }), o
+            }
+
+            function t(e) {
+                var t = i.createElement("script");
+                t.src = e, t.defer = !0, i.head.appendChild(t)
+            }
+            "undefined" != typeof Promise && (o = "wpEmojiSettingsSupports", s = ["flag", "emoji"], n.supports = {
+                everything: !0,
+                everythingExceptFlag: !0
+            }, e = new Promise(function(e) {
+                i.addEventListener("DOMContentLoaded", e, {
+                    once: !0
+                })
+            }), new Promise(function(t) {
+                var n = function() {
+                    try {
+                        var e = JSON.parse(sessionStorage.getItem(o));
+                        if ("object" == typeof e && "number" == typeof e.timestamp && (new Date).valueOf() < e.timestamp + 604800 && "object" == typeof e.supportTests) return e.supportTests
+                    } catch (e) {}
+                    return null
+                }();
+                if (!n) {
+                    if ("undefined" != typeof Worker && "undefined" != typeof OffscreenCanvas && "undefined" != typeof URL && URL.createObjectURL && "undefined" != typeof Blob) try {
+                        var e = "postMessage(" + f.toString() + "(" + [JSON.stringify(s), u.toString(), p.toString()].join(",") + "));",
+                            r = new Blob([e], {
+                                type: "text/javascript"
+                            }),
+                            a = new Worker(URL.createObjectURL(r), {
+                                name: "wpTestEmojiSupports"
+                            });
+                        return void(a.onmessage = function(e) {
+                            c(n = e.data), a.terminate(), t(n)
+                        })
+                    } catch (e) {}
+                    c(n = f(s, u, p))
+                }
+                t(n)
+            }).then(function(e) {
+                for (var t in e) n.supports[t] = e[t], n.supports.everything = n.supports.everything && n.supports[t], "flag" !== t && (n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && n.supports[t]);
+                n.supports.everythingExceptFlag = n.supports.everythingExceptFlag && !n.supports.flag, n.DOMReady = !1, n.readyCallback = function() {
+                    n.DOMReady = !0
+                }
+            }).then(function() {
+                return e
+            }).then(function() {
+                var e;
+                n.supports.everything || (n.readyCallback(), (e = n.source || {}).concatemoji ? t(e.concatemoji) : e.wpemoji && e.twemoji && (t(e.twemoji), t(e.wpemoji)))
+            }))
+        }((window, document), window._wpemojiSettings);
+    </script>
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <style id='wp-block-library-inline-css'>
+        :root {
+            --wp-admin-theme-color: #007cba;
+            --wp-admin-theme-color--rgb: 0, 124, 186;
+            --wp-admin-theme-color-darker-10: #006ba1;
+            --wp-admin-theme-color-darker-10--rgb: 0, 107, 161;
+            --wp-admin-theme-color-darker-20: #005a87;
+            --wp-admin-theme-color-darker-20--rgb: 0, 90, 135;
+            --wp-admin-border-width-focus: 2px;
+            --wp-block-synced-color: #7a00df;
+            --wp-block-synced-color--rgb: 122, 0, 223
+        }
+
+        @media (min-resolution:192dpi) {
+            :root {
+                --wp-admin-border-width-focus: 1.5px
+            }
+        }
+
+        .wp-element-button {
+            cursor: pointer
+        }
+
+        :root {
+            --wp--preset--font-size--normal: 16px;
+            --wp--preset--font-size--huge: 42px
+        }
+
+        :root .has-very-light-gray-background-color {
+            background-color: #eee
+        }
+
+        :root .has-very-dark-gray-background-color {
+            background-color: #313131
+        }
+
+        :root .has-very-light-gray-color {
+            color: #eee
+        }
+
+        :root .has-very-dark-gray-color {
+            color: #313131
+        }
+
+        :root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background {
+            background: linear-gradient(135deg, #00d084, #0693e3)
+        }
+
+        :root .has-purple-crush-gradient-background {
+            background: linear-gradient(135deg, #34e2e4, #4721fb 50%, #ab1dfe)
+        }
+
+        :root .has-hazy-dawn-gradient-background {
+            background: linear-gradient(135deg, #faaca8, #dad0ec)
+        }
+
+        :root .has-subdued-olive-gradient-background {
+            background: linear-gradient(135deg, #fafae1, #67a671)
+        }
+
+        :root .has-atomic-cream-gradient-background {
+            background: linear-gradient(135deg, #fdd79a, #004a59)
+        }
+
+        :root .has-nightshade-gradient-background {
+            background: linear-gradient(135deg, #330968, #31cdcf)
+        }
+
+        :root .has-midnight-gradient-background {
+            background: linear-gradient(135deg, #020381, #2874fc)
+        }
+
+        .has-regular-font-size {
+            font-size: 1em
+        }
+
+        .has-larger-font-size {
+            font-size: 2.625em
+        }
+
+        .has-normal-font-size {
+            font-size: var(--wp--preset--font-size--normal)
+        }
+
+        .has-huge-font-size {
+            font-size: var(--wp--preset--font-size--huge)
+        }
+
+        .has-text-align-center {
+            text-align: center
+        }
+
+        .has-text-align-left {
+            text-align: left
+        }
+
+        .has-text-align-right {
+            text-align: right
+        }
+
+        #end-resizable-editor-section {
+            display: none
+        }
+
+        .aligncenter {
+            clear: both
+        }
+
+        .items-justified-left {
+            justify-content: flex-start
+        }
+
+        .items-justified-center {
+            justify-content: center
+        }
+
+        .items-justified-right {
+            justify-content: flex-end
+        }
+
+        .items-justified-space-between {
+            justify-content: space-between
+        }
+
+        .screen-reader-text {
+            clip: rect(1px, 1px, 1px, 1px);
+            word-wrap: normal !important;
+            border: 0;
+            -webkit-clip-path: inset(50%);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute;
+            width: 1px
+        }
+
+        .screen-reader-text:focus {
+            clip: auto !important;
+            background-color: #ddd;
+            -webkit-clip-path: none;
+            clip-path: none;
+            color: #444;
+            display: block;
+            font-size: 1em;
+            height: auto;
+            left: 5px;
+            line-height: normal;
+            padding: 15px 23px 14px;
+            text-decoration: none;
+            top: 5px;
+            width: auto;
+            z-index: 100000
+        }
+
+        html :where(.has-border-color) {
+            border-style: solid
+        }
+
+        html :where([style*=border-top-color]) {
+            border-top-style: solid
+        }
+
+        html :where([style*=border-right-color]) {
+            border-right-style: solid
+        }
+
+        html :where([style*=border-bottom-color]) {
+            border-bottom-style: solid
+        }
+
+        html :where([style*=border-left-color]) {
+            border-left-style: solid
+        }
+
+        html :where([style*=border-width]) {
+            border-style: solid
+        }
+
+        html :where([style*=border-top-width]) {
+            border-top-style: solid
+        }
+
+        html :where([style*=border-right-width]) {
+            border-right-style: solid
+        }
+
+        html :where([style*=border-bottom-width]) {
+            border-bottom-style: solid
+        }
+
+        html :where([style*=border-left-width]) {
+            border-left-style: solid
+        }
+
+        html :where(img[class*=wp-image-]) {
+            height: auto;
+            max-width: 100%
+        }
+
+        :where(figure) {
+            margin: 0 0 1em
+        }
+
+        html :where(.is-position-sticky) {
+            --wp-admin--admin-bar--position-offset: var(--wp-admin--admin-bar--height, 0px)
+        }
+
+        @media screen and (max-width:600px) {
+            html :where(.is-position-sticky) {
+                --wp-admin--admin-bar--position-offset: 0px
+            }
+        }
+    </style>
+    <style id='global-styles-inline-css'>
+        body {
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--color--base: #ffffff;
+            --wp--preset--color--contrast: #000000;
+            --wp--preset--color--primary: #9DFF20;
+            --wp--preset--color--secondary: #345C00;
+            --wp--preset--color--tertiary: #F6F6F6;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);
+            --wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.227), 1.125rem);
+            --wp--preset--font-size--large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.227), 1.875rem);
+            --wp--preset--font-size--x-large: 2.25rem;
+            --wp--preset--font-size--xx-large: clamp(4rem, 4rem + ((1vw - 0.2rem) * 10.909), 10rem);
+            --wp--preset--font-family--dm-sans: "DM Sans", sans-serif;
+            --wp--preset--font-family--ibm-plex-mono: 'IBM Plex Mono', monospace;
+            --wp--preset--font-family--inter: "Inter", sans-serif;
+            --wp--preset--font-family--system-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+            --wp--preset--font-family--source-serif-pro: "Source Serif Pro", serif;
+            --wp--preset--spacing--30: clamp(1.5rem, 5vw, 2rem);
+            --wp--preset--spacing--40: clamp(1.8rem, 1.8rem + ((1vw - 0.48rem) * 2.885), 3rem);
+            --wp--preset--spacing--50: clamp(2.5rem, 8vw, 4.5rem);
+            --wp--preset--spacing--60: clamp(3.75rem, 10vw, 7rem);
+            --wp--preset--spacing--70: clamp(5rem, 5.25rem + ((1vw - 0.48rem) * 9.096), 8rem);
+            --wp--preset--spacing--80: clamp(7rem, 14vw, 11rem);
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        body {
+            margin: 0;
+            --wp--style--global--content-size: 650px;
+            --wp--style--global--wide-size: 1200px;
+        }
+
+        .wp-site-blocks {
+            padding-top: var(--wp--style--root--padding-top);
+            padding-bottom: var(--wp--style--root--padding-bottom);
+        }
+
+        .has-global-padding {
+            padding-right: var(--wp--style--root--padding-right);
+            padding-left: var(--wp--style--root--padding-left);
+        }
+
+        .has-global-padding :where(.has-global-padding) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .has-global-padding>.alignfull {
+            margin-right: calc(var(--wp--style--root--padding-right) * -1);
+            margin-left: calc(var(--wp--style--root--padding-left) * -1);
+        }
+
+        .has-global-padding :where(.has-global-padding)>.alignfull {
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .has-global-padding>.alignfull:where(:not(.has-global-padding))> :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]), p, h1, h2, h3, h4, h5, h6, ul, ol) {
+            padding-right: var(--wp--style--root--padding-right);
+            padding-left: var(--wp--style--root--padding-left);
+        }
+
+        .has-global-padding :where(.has-global-padding)>.alignfull:where(:not(.has-global-padding))> :where([class*="wp-block-"]:not(.alignfull):not([class*="__"]), p, h1, h2, h3, h4, h5, h6, ul, ol) {
+            padding-right: 0;
+            padding-left: 0;
+        }
+
+        .wp-site-blocks>.alignleft {
+            float: left;
+            margin-right: 2em;
+        }
+
+        .wp-site-blocks>.alignright {
+            float: right;
+            margin-left: 2em;
+        }
+
+        .wp-site-blocks>.aligncenter {
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        :where(.wp-site-blocks)>* {
+            margin-block-start: 1.5rem;
+            margin-block-end: 0;
+        }
+
+        :where(.wp-site-blocks)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(.wp-site-blocks)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        body {
+            --wp--style--block-gap: 1.5rem;
+        }
+
+        :where(body .is-layout-flow)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(body .is-layout-flow)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-flow)>* {
+            margin-block-start: 1.5rem;
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-constrained)> :first-child:first-child {
+            margin-block-start: 0;
+        }
+
+        :where(body .is-layout-constrained)> :last-child:last-child {
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-constrained)>* {
+            margin-block-start: 1.5rem;
+            margin-block-end: 0;
+        }
+
+        :where(body .is-layout-flex) {
+            gap: 1.5rem;
+        }
+
+        :where(body .is-layout-grid) {
+            gap: 1.5rem;
+        }
+
+        body .is-layout-flow>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-flow>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-flow>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignleft {
+            float: left;
+            margin-inline-start: 0;
+            margin-inline-end: 2em;
+        }
+
+        body .is-layout-constrained>.alignright {
+            float: right;
+            margin-inline-start: 2em;
+            margin-inline-end: 0;
+        }
+
+        body .is-layout-constrained>.aligncenter {
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+            max-width: var(--wp--style--global--content-size);
+            margin-left: auto !important;
+            margin-right: auto !important;
+        }
+
+        body .is-layout-constrained>.alignwide {
+            max-width: var(--wp--style--global--wide-size);
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        body .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        body .is-layout-flex>* {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        body .is-layout-grid>* {
+            margin: 0;
+        }
+
+        body {
+            background-color: var(--wp--preset--color--base);
+            color: var(--wp--preset--color--contrast);
+            font-family: var(--wp--preset--font-family--system-font);
+            font-size: var(--wp--preset--font-size--medium);
+            line-height: 1.6;
+            --wp--style--root--padding-top: var(--wp--preset--spacing--40);
+            --wp--style--root--padding-right: var(--wp--preset--spacing--30);
+            --wp--style--root--padding-bottom: var(--wp--preset--spacing--40);
+            --wp--style--root--padding-left: var(--wp--preset--spacing--30);
+        }
+
+        a:where(:not(.wp-element-button)) {
+            color: var(--wp--preset--color--contrast);
+            text-decoration: underline;
+        }
+
+        a:where(:not(.wp-element-button)):hover {
+            text-decoration: none;
+        }
+
+        a:where(:not(.wp-element-button)):focus {
+            text-decoration: underline dashed;
+        }
+
+        a:where(:not(.wp-element-button)):active {
+            color: var(--wp--preset--color--secondary);
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 400;
+            line-height: 1.4;
+        }
+
+        h1 {
+            font-size: clamp(2.032rem, 2.032rem + ((1vw - 0.2rem) * 2.896), 3.625rem);
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: clamp(2.625rem, calc(2.625rem + ((1vw - 0.48rem) * 8.4135)), 3.25rem);
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-size: var(--wp--preset--font-size--x-large);
+        }
+
+        h4 {
+            font-size: var(--wp--preset--font-size--large);
+        }
+
+        h5 {
+            font-size: var(--wp--preset--font-size--medium);
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        h6 {
+            font-size: var(--wp--preset--font-size--medium);
+            text-transform: uppercase;
+        }
+
+        .wp-element-button,
+        .wp-block-button__link {
+            background-color: var(--wp--preset--color--primary);
+            border-radius: 0;
+            border-width: 0;
+            color: var(--wp--preset--color--contrast);
+            font-family: inherit;
+            font-size: inherit;
+            line-height: inherit;
+            padding: calc(0.667em + 2px) calc(1.333em + 2px);
+            text-decoration: none;
+        }
+
+        .wp-element-button:visited,
+        .wp-block-button__link:visited {
+            color: var(--wp--preset--color--contrast);
+        }
+
+        .wp-element-button:hover,
+        .wp-block-button__link:hover {
+            background-color: var(--wp--preset--color--contrast);
+            color: var(--wp--preset--color--base);
+        }
+
+        .wp-element-button:focus,
+        .wp-block-button__link:focus {
+            background-color: var(--wp--preset--color--contrast);
+            color: var(--wp--preset--color--base);
+        }
+
+        .wp-element-button:active,
+        .wp-block-button__link:active {
+            background-color: var(--wp--preset--color--secondary);
+            color: var(--wp--preset--color--base);
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-base-color {
+            color: var(--wp--preset--color--base) !important;
+        }
+
+        .has-contrast-color {
+            color: var(--wp--preset--color--contrast) !important;
+        }
+
+        .has-primary-color {
+            color: var(--wp--preset--color--primary) !important;
+        }
+
+        .has-secondary-color {
+            color: var(--wp--preset--color--secondary) !important;
+        }
+
+        .has-tertiary-color {
+            color: var(--wp--preset--color--tertiary) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-base-background-color {
+            background-color: var(--wp--preset--color--base) !important;
+        }
+
+        .has-contrast-background-color {
+            background-color: var(--wp--preset--color--contrast) !important;
+        }
+
+        .has-primary-background-color {
+            background-color: var(--wp--preset--color--primary) !important;
+        }
+
+        .has-secondary-background-color {
+            background-color: var(--wp--preset--color--secondary) !important;
+        }
+
+        .has-tertiary-background-color {
+            background-color: var(--wp--preset--color--tertiary) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-base-border-color {
+            border-color: var(--wp--preset--color--base) !important;
+        }
+
+        .has-contrast-border-color {
+            border-color: var(--wp--preset--color--contrast) !important;
+        }
+
+        .has-primary-border-color {
+            border-color: var(--wp--preset--color--primary) !important;
+        }
+
+        .has-secondary-border-color {
+            border-color: var(--wp--preset--color--secondary) !important;
+        }
+
+        .has-tertiary-border-color {
+            border-color: var(--wp--preset--color--tertiary) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        .has-xx-large-font-size {
+            font-size: var(--wp--preset--font-size--xx-large) !important;
+        }
+
+        .has-dm-sans-font-family {
+            font-family: var(--wp--preset--font-family--dm-sans) !important;
+        }
+
+        .has-ibm-plex-mono-font-family {
+            font-family: var(--wp--preset--font-family--ibm-plex-mono) !important;
+        }
+
+        .has-inter-font-family {
+            font-family: var(--wp--preset--font-family--inter) !important;
+        }
+
+        .has-system-font-font-family {
+            font-family: var(--wp--preset--font-family--system-font) !important;
+        }
+
+        .has-source-serif-pro-font-family {
+            font-family: var(--wp--preset--font-family--source-serif-pro) !important;
+        }
+
+        .wp-block-separator {}
+
+        .wp-block-separator:not(.is-style-wide):not(.is-style-dots):not(.alignwide):not(.alignfull) {
+            width: 100px
+        }
+    </style>
+    <style id='wp-webfonts-inline-css'>
+        @font-face {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 400;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "DM Sans";
+            font-style: italic;
+            font-weight: 400;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Regular-Italic.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "DM Sans";
+            font-style: normal;
+            font-weight: 700;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "DM Sans";
+            font-style: italic;
+            font-weight: 700;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/dm-sans/DMSans-Bold-Italic.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "IBM Plex Mono";
+            font-style: normal;
+            font-weight: 300;
+            font-display: block;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Light.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "IBM Plex Mono";
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Regular.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "IBM Plex Mono";
+            font-style: italic;
+            font-weight: 400;
+            font-display: block;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Italic.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "IBM Plex Mono";
+            font-style: normal;
+            font-weight: 700;
+            font-display: block;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/ibm-plex-mono/IBMPlexMono-Bold.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: Inter;
+            font-style: normal;
+            font-weight: 200 900;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "Source Serif Pro";
+            font-style: normal;
+            font-weight: 200 900;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Roman.ttf.woff2') format('woff2');
+            font-stretch: normal;
+        }
+
+        @font-face {
+            font-family: "Source Serif Pro";
+            font-style: italic;
+            font-weight: 200 900;
+            font-display: fallback;
+            src: url('https://trycortexi.universalmarketweb.com/wp-content/themes/twentytwentythree/assets/fonts/source-serif-pro/SourceSerif4Variable-Italic.ttf.woff2') format('woff2');
+            font-stretch: normal;
+        }
+    </style>
+    <link rel='stylesheet' id='elementor-icons-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.23.0' media='all' />
+    <link rel='stylesheet' id='elementor-frontend-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.17.3' media='all' />
+    <link rel='stylesheet' id='swiper-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5' media='all' />
+    <link rel='stylesheet' id='elementor-post-8-css' href='https://trycortexi.universalmarketweb.com/wp-content/uploads/elementor/css/post-8.css?ver=1699481366' media='all' />
+    <link rel='stylesheet' id='elementor-global-css' href='https://trycortexi.universalmarketweb.com/wp-content/uploads/elementor/css/global.css?ver=1699481367' media='all' />
+    <link rel='stylesheet' id='elementor-post-232-css' href='https://trycortexi.universalmarketweb.com/wp-content/uploads/elementor/css/post-232.css?ver=1699481367' media='all' />
+    <link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CPoppins%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CNoto+Sans%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.3.2'
+        media='all' />
+    <link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+    <link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link rel="https://api.w.org/" href="https://trycortexi.universalmarketweb.com/index.php/wp-json/" />
+    <link rel="alternate" type="application/json" href="https://trycortexi.universalmarketweb.com/index.php/wp-json/wp/v2/pages/232" />
+    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://trycortexi.universalmarketweb.com/xmlrpc.php?rsd" />
+    <meta name="generator" content="WordPress 6.3.2" />
+    <link rel="canonical" href="https://trycortexi.universalmarketweb.com/" />
+    <link rel='shortlink' href='https://trycortexi.universalmarketweb.com/' />
+    <link rel="alternate" type="application/json+oembed" href="https://trycortexi.universalmarketweb.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrycortexi.universalmarketweb.com%2F" />
+    <link rel="alternate" type="text/xml+oembed" href="https://trycortexi.universalmarketweb.com/index.php/wp-json/oembed/1.0/embed?url=https%3A%2F%2Ftrycortexi.universalmarketweb.com%2F&#038;format=xml" />
+    <meta name="generator" content="Elementor 3.17.3; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <link rel="icon" href="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PROD-Hero-2-150x150.png" sizes="32x32" />
+    <link rel="icon" href="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PROD-Hero-2-300x300.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PROD-Hero-2-300x300.png" />
+    <meta name="msapplication-TileImage" content="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PROD-Hero-2-300x300.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+
+<body class="home page-template page-template-elementor_canvas page page-id-232 wp-embed-responsive elementor-default elementor-template-canvas elementor-kit-8 elementor-page elementor-page-232">
+    <div data-elementor-type="wp-page" data-elementor-id="232" class="elementor elementor-232">
+        <div class="elementor-element elementor-element-3d071368 e-flex e-con-boxed e-con e-parent" data-id="3d071368" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+            data-core-v316-plus="true">
+            <div class="e-con-inner">
+                <div class="elementor-element elementor-element-1676a594 elementor-widget elementor-widget-html" data-id="1676a594" data-element_type="widget" data-widget_type="html.default">
+                    <div class="elementor-widget-container">
+                        <script>
+                            var request = new XMLHttpRequest();
+
+                            request.open('GET', 'https://wtfismyip.com/json', true);
+
+
+
+                            request.onload = function() {
+
+                                if (this.status >= 200 && this.status < 400) {
+
+                                    var data = JSON.parse(this.response);
+
+                                    let output = data.YourFuckingLocation.replace(/\,.+/g, "$'");
+
+                                    document.getElementById("cidade").innerHTML = output;
+
+                                } else {}
+
+                            };
+
+                            request.onerror = function() {};
+
+                            request.send();
+                        </script>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-37e467f3 elementor-widget elementor-widget-heading" data-id="37e467f3" data-element_type="widget" data-widget_type="heading.default">
+                    <div class="elementor-widget-container">
+                        <style>
+                            /*! elementor - v3.17.0 - 08-11-2023 */
+
+                            .elementor-heading-title {
+                                padding: 0;
+                                margin: 0;
+                                line-height: 1
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                color: inherit;
+                                font-size: inherit;
+                                line-height: inherit
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                font-size: 15px
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                font-size: 19px
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                font-size: 29px
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                font-size: 39px
+                            }
+
+                            .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                font-size: 59px
+                            }
+                        </style>
+                        <h2 class="elementor-heading-title elementor-size-default">
+                            Fast Shipping + $780 Discount to <u> <span id="cidade"></span>!</u>
+                            <b> Promotional Code Applied to Cart Until:</b><span style="color: #FFD701;">  </b> <div id="descounttime"></div>
+<script language="javascript">
+var getdayNames = new Array("Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira","Quinta-Feira", "Sexta-Feira", "Sábado");
+var getdayMonth = new Array("January", "February", "March", "April", "May", "June", "July","August", "September", "October", "November", "December");
+var getNow = new Date();
+var dayOfTheWeek = getNow.getDay();
+getNow.setTime(getNow.getTime() - 0 * 24 * 60 * 60 * 1000);
+document.getElementById("descounttime").innerHTML = getNow.getDate() + " of " + getdayMonth[(getNow.getMonth())] ;
+</script>
+</h2>		</div>
+				</div>
+					</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-21948450 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="21948450" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-21abaa30" data-id="21abaa30" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-a9c64d9 elementor-widget elementor-widget-image" data-id="a9c64d9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+			<style>/*! elementor - v3.17.0 - 08-11-2023 */
+.elementor-widget-image{text-align:center}.elementor-widget-image a{display:inline-block}.elementor-widget-image a img[src$=".svg"]{width:48px}.elementor-widget-image img{vertical-align:middle;display:inline-block}</style>													<a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" fetchpriority="high" width="768" height="164" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/logo-cortexi-768x164.png" class="attachment-medium_large size-medium_large wp-image-36" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/logo-cortexi-768x164.png 768w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/logo-cortexi-300x64.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/logo-cortexi-1024x219.png 1024w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/logo-cortexi.png 1529w" sizes="(max-width: 768px) 100vw, 768px" />								</a>
+															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-58faf7ee" data-id="58faf7ee" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-617c41d7 elementor-align-right elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="617c41d7" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-button-wrapper">
+			<a class="elementor-button elementor-button-link elementor-size-md elementor-animation-grow" href="https://bestofferhere.link/Cortexiofficial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">ORDER NOW</span>
+                            </span>
+                            </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-31302c2b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31302c2b" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-13a34bf2" data-id="13a34bf2" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-577d0e76 elementor-invisible elementor-widget elementor-widget-image" data-id="577d0e76" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" width="837" height="654" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PRODx3-badges.png" class="elementor-animation-rotate attachment-large size-large wp-image-32" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PRODx3-badges.png 837w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PRODx3-badges-300x234.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/PRODx3-badges-768x600.png 768w" sizes="(max-width: 837px) 100vw, 837px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-30b87173" data-id="30b87173" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-406e7cc2 elementor-widget elementor-widget-heading" data-id="406e7cc2" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">360° Hearing Support <br> Give Your Ears A Rest!</h2>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-1dfdaabb elementor-widget__width-initial elementor-widget-tablet__width-initial elementor-widget elementor-widget-text-editor" data-id="1dfdaabb" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <style>
+                                /*! elementor - v3.17.0 - 08-11-2023 */
+
+                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                    background-color: #69727d;
+                                    color: #fff
+                                }
+
+                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                    color: #69727d;
+                                    border: 3px solid;
+                                    background-color: transparent
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                    margin-top: 8px
+                                }
+
+                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                    width: 1em;
+                                    height: 1em
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap {
+                                    float: left;
+                                    text-align: center;
+                                    line-height: 1;
+                                    font-size: 50px
+                                }
+
+                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                    display: inline-block
+                                }
+                            </style>
+                            <p><strong>Cortexi</strong> is the Herbal Science Breakthrough in Hearing Health. <br /><strong>Claim Your Discounted Cortexi Below While Stock Lasts!</strong></p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-3b615e53 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="3b615e53" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;,&quot;_animation_delay&quot;:0}"
+                        data-widget_type="button.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                                <a class="elementor-button elementor-button-link elementor-size-md elementor-animation-pulse" href="https://bestofferhere.link/Cortexiofficial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text"> 2 CLICKS TO BUY - GET $780 OFF ONLY TODAY</span>
+		</span>
+					</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-5fbd9f7d elementor-widget elementor-widget-image" data-id="5fbd9f7d" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" width="1024" height="218" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/certifications-1024x218.png" class="attachment-large size-large wp-image-237" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/certifications-1024x218.png 1024w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/certifications-300x64.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/certifications-768x164.png 768w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/certifications.png 1395w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="elementor-element elementor-element-5a3f180e e-flex e-con-boxed e-con e-parent" data-id="5a3f180e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-4e5a34ca elementor-widget elementor-widget-text-editor" data-id="4e5a34ca" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                    <p><strong>Stock levels are limited. Get your bottles before the discount expires. Don&#8217;t miss out!</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-cc6d524 e-flex e-con-boxed e-con e-parent" data-id="cc6d524" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-78a5849 e-con-full e-flex e-con e-child" data-id="78a5849" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-40d7c99 elementor-widget elementor-widget-text-editor" data-id="40d7c99" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p>Order<span style="color: #008080;"> <strong>6 Bottles</strong></span> Or <span style="color: #008080;"><strong>3 Bottles</strong></span> And Get <strong><span style="text-decoration: underline;"><span style="color: #000000; text-decoration: underline;">2 FREE Bonuses</span></span>!</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-4229b33 e-con-full e-flex e-con e-child" data-id="4229b33" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-99187f6 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="99187f6" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                    data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="571" height="643" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-1.png" class="elementor-animation-pulse-grow attachment-large size-large wp-image-41" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-1.png 571w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-1-266x300.png 266w" sizes="(max-width: 571px) 100vw, 571px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-755507f e-con-full e-flex e-con e-child" data-id="755507f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-edd8be4 elementor-widget__width-initial elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-image" data-id="edd8be4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                    data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="566" height="643" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-2.png" class="elementor-animation-pulse-grow attachment-large size-large wp-image-42" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-2.png 566w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/bonus-2-264x300.png 264w" sizes="(max-width: 566px) 100vw, 566px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-f73a909 e-flex e-con-boxed e-con e-child" data-id="f73a909" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-b4933c9 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="b4933c9" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;,&quot;_animation_delay&quot;:0}"
+                        data-widget_type="button.default">
+                        <div class="elementor-widget-container">
+                            <div class="elementor-button-wrapper">
+                                <a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-pulse" href="https://bestofferhere.link/Cortexiofficial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-shopping-cart"></i>			</span>
+						<span class="elementor-button-text">BUY NOW  - LIMITED TIME OFFER   </span>
+		</span>
+					</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-7145d962 e-flex e-con-boxed e-con e-parent" data-id="7145d962" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-4c0c951c elementor-widget elementor-widget-heading" data-id="4c0c951c" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-widget-container">
+                    <h2 class="elementor-heading-title elementor-size-default"> Inside Every Cortexi Drop You’ll Find:</h2>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-7f929bb5 elementor-widget elementor-widget-text-editor" data-id="7f929bb5" data-element_type="widget" data-widget_type="text-editor.default">
+                <div class="elementor-widget-container">
+                    <p><span style="text-decoration: underline;">Over 20 Carefully-Selected Ingredients</span> That Support Healthy Hearing, Including:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-79259d0c e-flex e-con-boxed e-con e-parent" data-id="79259d0c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-159cd9a3 e-con-full e-flex e-con e-child" data-id="159cd9a3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-16ea8629 elementor-widget elementor-widget-image" data-id="16ea8629" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="299" height="392" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing1.png" class="attachment-full size-full wp-image-287" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing1.png 299w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing1-229x300.png 229w" sizes="(max-width: 299px) 100vw, 299px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-e5a4bfe e-con-full e-flex e-con e-child" data-id="e5a4bfe" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-ee98ed3 elementor-widget elementor-widget-image" data-id="ee98ed3" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="285" height="392" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing2.png" class="attachment-full size-full wp-image-288" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing2.png 285w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing2-218x300.png 218w" sizes="(max-width: 285px) 100vw, 285px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-29310284 e-con-full e-flex e-con e-child" data-id="29310284" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-54d7696f elementor-widget elementor-widget-image" data-id="54d7696f" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="288" height="362" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing3.png" class="attachment-full size-full wp-image-289" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing3.png 288w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing3-239x300.png 239w" sizes="(max-width: 288px) 100vw, 288px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-233ecae e-con-full e-flex e-con e-child" data-id="233ecae" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-4d9a7db2 elementor-widget elementor-widget-image" data-id="4d9a7db2" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="283" height="397" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing4.png" class="attachment-full size-full wp-image-290" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing4.png 283w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing4-214x300.png 214w" sizes="(max-width: 283px) 100vw, 283px" />								</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-3ff6919 e-flex e-con-boxed e-con e-parent" data-id="3ff6919" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-5c8436f e-con-full e-flex e-con e-child" data-id="5c8436f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-9eba11f elementor-widget elementor-widget-image" data-id="9eba11f" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="297" height="390" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing5.png" class="attachment-full size-full wp-image-291" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing5.png 297w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing5-228x300.png 228w" sizes="(max-width: 297px) 100vw, 297px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-bbdb74f e-con-full e-flex e-con e-child" data-id="bbdb74f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-9b21497 elementor-widget elementor-widget-image" data-id="9b21497" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="287" height="361" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing6.png" class="attachment-full size-full wp-image-292" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing6.png 287w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing6-239x300.png 239w" sizes="(max-width: 287px) 100vw, 287px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-dafe7df e-con-full e-flex e-con e-child" data-id="dafe7df" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-e4e9614 elementor-widget elementor-widget-image" data-id="e4e9614" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="289" height="411" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing7.png" class="attachment-full size-full wp-image-293" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing7.png 289w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing7-211x300.png 211w" sizes="(max-width: 289px) 100vw, 289px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-ea8269a e-con-full e-flex e-con e-child" data-id="ea8269a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-71f126f elementor-widget elementor-widget-image" data-id="71f126f" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="290" height="356" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing8.png" class="attachment-full size-full wp-image-294" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing8.png 290w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/ing8-244x300.png 244w" sizes="(max-width: 290px) 100vw, 290px" />								</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-4e4a2369 e-flex e-con-boxed e-con e-parent" data-id="4e4a2369" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-5c186700 e-con-full e-flex e-con e-child" data-id="5c186700" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-element elementor-element-3e18bc1 e-con-full e-flex e-con e-child" data-id="3e18bc1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                    <div class="elementor-element elementor-element-1ada687d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="1ada687d" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="411" height="360" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee.jpg" class="attachment-2048x2048 size-2048x2048 wp-image-299" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee.jpg 411w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee-300x263.jpg 300w" sizes="(max-width: 411px) 100vw, 411px" />								</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-10fdb94b e-con-full e-flex e-con e-child" data-id="10fdb94b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                    <div class="elementor-element elementor-element-6bdb1963 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="6bdb1963" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p class="fw-bolder">60-DAY MONEY BACK GUARANTEE 100% SATISFACTION GUARANTEED</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-62f06731 elementor-widget elementor-widget-text-editor" data-id="62f06731" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Cortexi comes with a 100% money back guarantee &#8211; 60 full days from your original purchase. If you&#8217;re not totally and completely satisfied with our product or your results within the first 60 days simply let us know
+                                by calling our toll-free number or dropping us an email and we&#8217;ll gladly give you a <strong>full refund within 48 hours</strong> of the product being returned.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-53d4628a e-flex e-con-boxed e-con e-parent" data-id="53d4628a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-2f6dc8b1 e-con-full e-flex e-con e-child" data-id="2f6dc8b1" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-36afc843 e-flex e-con-boxed e-con e-child" data-id="36afc843" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-d71536e elementor-widget elementor-widget-text-editor" data-id="d71536e" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Real Cortexi Users<br />Real <span style="text-decoration: underline;">Life‑Changing Results</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-94a5ace elementor-widget elementor-widget-image" data-id="94a5ace" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="1024" height="337" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/people-1024x337.png" class="attachment-large size-large wp-image-300" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/people-1024x337.png 1024w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/people-300x99.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/people-768x253.png 768w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/people.png 1064w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-2222a3c5 e-flex e-con-boxed e-con e-parent" data-id="2222a3c5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-8229f34 e-con-full e-flex e-con e-child" data-id="8229f34" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-2d0e3a1c elementor-widget elementor-widget-image" data-id="2d0e3a1c" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img decoding="async" loading="lazy" width="150" height="150" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/1p-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-302" alt="" /> </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-21f607a5 e-con-full e-flex e-con e-child" data-id="21f607a5" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-2ff7f136 e-flex e-con-boxed e-con e-child" data-id="2ff7f136" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-1299d4ce elementor-widget elementor-widget-text-editor" data-id="1299d4ce" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p><strong>I’ve never felt sharper</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-68ece59 e-flex e-con-boxed e-con e-child" data-id="68ece59" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-502b0cda elementor-widget elementor-widget-image" data-id="502b0cda" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" loading="lazy" width="300" height="29" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png" class="attachment-medium size-medium wp-image-301" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star.png 323w"
+                                    sizes="(max-width: 300px) 100vw, 300px" /> </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9759f76 elementor-widget elementor-widget-text-editor" data-id="9759f76" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p class="bigger pt-2 mb-2">&#8220;Cortexi did wonders to support my hearing. I work as an audio engineer, so protecting my ears against noise is a must. Go for the 6-bottle pack &#8211; it’s the best investment you’ll ever make.&#8221;<br /><br /><strong>Sam W. </strong>&#8211;
+                                    Huston, TX </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-308dd76e e-flex e-con-boxed e-con e-parent" data-id="308dd76e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-29f42b6b e-con-full e-flex e-con e-child" data-id="29f42b6b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-1eda9432 elementor-widget elementor-widget-image" data-id="1eda9432" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img decoding="async" loading="lazy" width="150" height="150" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/2p-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-303" alt="" /> </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-6697d1fa e-con-full e-flex e-con e-child" data-id="6697d1fa" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-18e84ae8 e-flex e-con-boxed e-con e-child" data-id="18e84ae8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-5aae1d24 elementor-widget elementor-widget-text-editor" data-id="5aae1d24" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p><strong>People kept asking me about it</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-7534ac5b e-flex e-con-boxed e-con e-child" data-id="7534ac5b" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-270c7ca6 elementor-widget elementor-widget-image" data-id="270c7ca6" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" loading="lazy" width="300" height="29" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png" class="attachment-medium size-medium wp-image-301" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star.png 323w"
+                                    sizes="(max-width: 300px) 100vw, 300px" /> </div>
+                        </div>
+                        <div class="elementor-element elementor-element-53cccad elementor-widget elementor-widget-text-editor" data-id="53cccad" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p class="bigger pt-2 mb-2">&#8220;It’s only been three weeks since I started taking Cortexi, but I love how easy it is to take and how well it works to support my mental sharpness. I put a couple of drops in my morning coffee and just go on my way.
+                                    I’ve even shared my supply with a few friends and they’re already coming back for more!&#8221;<br /><br /><strong>Gary V.</strong> &#8211; Albany, NY</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-33ec92f0 e-flex e-con-boxed e-con e-parent" data-id="33ec92f0" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-7302d7a6 e-con-full e-flex e-con e-child" data-id="7302d7a6" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-22e10959 elementor-widget elementor-widget-image" data-id="22e10959" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img decoding="async" loading="lazy" width="150" height="150" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/3p-150x150.png" class="attachment-thumbnail size-thumbnail wp-image-304" alt="" /> </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-5bd350 e-con-full e-flex e-con e-child" data-id="5bd350" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-4ca247a8 e-flex e-con-boxed e-con e-child" data-id="4ca247a8" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-6e78bde0 elementor-widget elementor-widget-text-editor" data-id="6e78bde0" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p><strong>The gift that keeps on giving</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-5c436ce2 e-flex e-con-boxed e-con e-child" data-id="5c436ce2" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-481225bf elementor-widget elementor-widget-image" data-id="481225bf" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" loading="lazy" width="300" height="29" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png" class="attachment-medium size-medium wp-image-301" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star-300x29.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/star.png 323w"
+                                    sizes="(max-width: 300px) 100vw, 300px" /> </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9453345 elementor-widget elementor-widget-text-editor" data-id="9453345" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p class="bigger pt-2 mb-2">&#8220;I treasure my peace and quiet more than anything. So I’m well aware just how important the health of my ears is. Knowing that by taking Cortexi I’m feeding my hearing these essential nutrients helps me sleep better
+                                    at night. Definitely give this one a try.&#8221;<br /><br /><strong>Jack B. </strong>&#8211; Seattle, WA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-3af964f3 e-flex e-con-boxed e-con e-parent" data-id="3af964f3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-3ffa070d e-con-full e-flex e-con e-child" data-id="3ffa070d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-5cb92914 e-flex e-con-boxed e-con e-child" data-id="5cb92914" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-7a1749d3 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="7a1749d3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;pulse&quot;,&quot;_animation_delay&quot;:0}"
+                            data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-pulse" href="https://bestofferhere.link/Cortexiofficial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon elementor-align-icon-right">
+				<i aria-hidden="true" class="fas fa-shopping-cart"></i>			</span>
+						<span class="elementor-button-text">BUY NOW  - LIMITED TIME OFFER   </span>
+		</span>
+					</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-4f00d93 e-flex e-con-boxed e-con e-parent" data-id="4f00d93" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-a2bbc3e e-con-full e-flex e-con e-child" data-id="a2bbc3e" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-1dbe4a7 elementor-widget elementor-widget-image" data-id="1dbe4a7" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img decoding="async" loading="lazy" width="164" height="93" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/Capturar.png" class="attachment-large size-large wp-image-314" alt="" /> </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-0d2e32d e-con-full e-flex e-con e-child" data-id="0d2e32d" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-bb9b782 e-flex e-con-boxed e-con e-child" data-id="bb9b782" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-7aae839 elementor-widget elementor-widget-text-editor" data-id="7aae839" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p class="fw-bolder" style="margin-top: 0px; margin-bottom: 0.5rem; line-height: 1.2; font-size: 1.75rem; color: #212529; font-family: Poppins, sans-serif; text-align: center; background-color: #eef9f6; font-weight: bolder !important;">Every <span style="text-decoration: underline;"><span class="is-underlined" style="text-decoration: underline var(--bs-primary);">6 Bottles</span></span> Order Gets <span style="text-decoration: underline;"><span class="is-underlined" style="text-decoration: underline var(--bs-primary);">FREE Shipping</span></span> Too!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-b1e0140 e-flex e-con-boxed e-con e-child" data-id="b1e0140" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-d2820de elementor-widget elementor-widget-text-editor" data-id="d2820de" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <h5 style="margin-top: 0px; margin-bottom: 0.5rem; font-weight: 500; line-height: 1.2; font-size: 1.25rem; color: #212529; font-family: Poppins, sans-serif; text-align: center; text-transform: none; background-color: #eef9f6;">*96% Of Customers Order 6 Bottles (Our Recommended Option)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-393b5042 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="393b5042" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-46a3af8f" data-id="46a3af8f" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-2127b1d1 elementor-widget elementor-widget-heading" data-id="2127b1d1" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Claim Your Discounted Cortexi <br> Below While Stock Lasts!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-5444f1d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5444f1d4" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7853b85a" data-id="7853b85a" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-537110f4 elementor-widget elementor-widget-image" data-id="537110f4" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="383" height="822" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes.png" class="elementor-animation-grow attachment-medium_large size-medium_large wp-image-50" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes.png 383w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes-140x300.png 140w" sizes="(max-width: 383px) 100vw, 383px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-70af23a9" data-id="70af23a9" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-5c74437c elementor-widget elementor-widget-image" data-id="5c74437c" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="382" height="803" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes.png" class="elementor-animation-grow attachment-large size-large wp-image-49" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes.png 382w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes-143x300.png 143w" sizes="(max-width: 382px) 100vw, 382px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-1c77da4c" data-id="1c77da4c" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-717a9db8 elementor-widget elementor-widget-image" data-id="717a9db8" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="384" height="801" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle.png" class="elementor-animation-grow attachment-large size-large wp-image-48" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle.png 384w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle-144x300.png 144w" sizes="(max-width: 384px) 100vw, 384px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="elementor-element elementor-element-4197567c e-flex e-con-boxed e-con e-parent" data-id="4197567c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-43e9b6b9 e-flex e-con-boxed e-con e-child" data-id="43e9b6b9" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-68af6b86 elementor-widget elementor-widget-image" data-id="68af6b86" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <img decoding="async" loading="lazy" width="300" height="162" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay-300x162.png" class="attachment-medium size-medium wp-image-313" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay-300x162.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay.png 482w"
+                                sizes="(max-width: 300px) 100vw, 300px" /> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-4a546ea e-flex e-con-boxed e-con e-parent" data-id="4a546ea" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-8529f39 e-con-full e-flex e-con e-child" data-id="8529f39" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-94064ec elementor-widget elementor-widget-image" data-id="94064ec" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="489" height="654" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/PRODx1-badge.png" class="attachment-large size-large wp-image-318" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/PRODx1-badge.png 489w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/PRODx1-badge-224x300.png 224w" sizes="(max-width: 489px) 100vw, 489px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-06a7279 e-con-full e-flex e-con e-child" data-id="06a7279" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-22247d4 e-flex e-con-boxed e-con e-child" data-id="22247d4" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-f0f1b57 elementor-widget elementor-widget-text-editor" data-id="f0f1b57" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Give Your</p>
+                                <p>Ears a rest!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-5b6d54f e-flex e-con-boxed e-con e-child" data-id="5b6d54f" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                    <div class="e-con-inner">
+                        <div class="elementor-element elementor-element-efd39c5 elementor-widget elementor-widget-text-editor" data-id="efd39c5" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Get the free e-books <strong>Meditation PDF Guide</strong> and <strong>Sharpen Memory PDF Guide</strong> for any multi-month purchase.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-7dd9fca elementor-align-center elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="7dd9fca" data-element_type="widget" data-widget_type="button.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-button-wrapper">
+                            <a class="elementor-button elementor-button-link elementor-size-lg elementor-animation-grow" href="https://bestofferhere.link/Cortexiofficial">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-text">ORDER NOW</span>
+		</span>
+					</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-6a45998 e-flex e-con-boxed e-con e-parent" data-id="6a45998" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-925fdc4 e-con-full e-flex e-con e-child" data-id="925fdc4" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-587f80c elementor-widget elementor-widget-image" data-id="587f80c" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="387" height="478" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v1.png" class="attachment-large size-large wp-image-320" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v1.png 387w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v1-243x300.png 243w" sizes="(max-width: 387px) 100vw, 387px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-b0fdb69 e-con-full e-flex e-con e-child" data-id="b0fdb69" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-ef91c05 elementor-widget elementor-widget-image" data-id="ef91c05" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="388" height="470" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v2.png" class="attachment-large size-large wp-image-321" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v2.png 388w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v2-248x300.png 248w" sizes="(max-width: 388px) 100vw, 388px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-0c1df05 e-con-full e-flex e-con e-child" data-id="0c1df05" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-09c3c18 elementor-widget elementor-widget-image" data-id="09c3c18" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="374" height="492" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v3.png" class="attachment-large size-large wp-image-322" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v3.png 374w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/v3-228x300.png 228w" sizes="(max-width: 374px) 100vw, 374px" />								</a>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-512a8dd e-con-full e-flex e-con e-child" data-id="512a8dd" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                <div class="elementor-element elementor-element-ced59ce elementor-widget elementor-widget-text-editor" data-id="ced59ce" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p>Cortexi&#8217;s <span style="font-weight: bolder; color: #212529; font-family: Poppins, sans-serif; font-size: 16px;">incredible formula</span> brings together high quality raw ingredients sourced from different parts of the world
+                            that work in synergy for maximum performance. It is the only natural supplement that supports <span style="font-weight: bolder; color: #212529; font-family: Poppins, sans-serif; font-size: 16px;">healthy hearing </span>with
+                            <span
+                                style="font-weight: bolder; color: #212529; font-family: Poppins, sans-serif; font-size: 16px;">proven results</span>. Cortexi’s many benefits include:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-8ba728e e-flex e-con-boxed e-con e-parent" data-id="8ba728e" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-180b3a3 e-con-full e-flex e-con e-child" data-id="180b3a3" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;,&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-element elementor-element-f63402c e-con-full e-flex e-con e-child" data-id="f63402c" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                    <div class="elementor-element elementor-element-05fa15d elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="05fa15d" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="411" height="360" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee.jpg" class="attachment-2048x2048 size-2048x2048 wp-image-299" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee.jpg 411w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/guarantee-300x263.jpg 300w" sizes="(max-width: 411px) 100vw, 411px" />								</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-6b30113 e-con-full e-flex e-con e-child" data-id="6b30113" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}">
+                    <div class="elementor-element elementor-element-625b321 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="625b321" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p class="fw-bolder">60-DAY MONEY BACK GUARANTEE 100% SATISFACTION GUARANTEED</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-74addef elementor-widget elementor-widget-text-editor" data-id="74addef" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Cortexi comes with a 100% money back guarantee &#8211; 60 full days from your original purchase. If you&#8217;re not totally and completely satisfied with our product or your results within the first 60 days simply let us know
+                                by calling our toll-free number or dropping us an email and we&#8217;ll gladly give you a <strong>full refund within 48 hours</strong> of the product being returned.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-7ceecf8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7ceecf8" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d9c2557" data-id="d9c2557" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-02da2d4 elementor-widget elementor-widget-text-editor" data-id="02da2d4" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p><strong>Frequently Asked Questions</strong></p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-6bbc876 elementor-widget elementor-widget-toggle" data-id="6bbc876" data-element_type="widget" data-widget_type="toggle.default">
+                        <div class="elementor-widget-container">
+                            <style>
+                                /*! elementor - v3.17.0 - 08-11-2023 */
+
+                                .elementor-toggle {
+                                    text-align: left
+                                }
+
+                                .elementor-toggle .elementor-tab-title {
+                                    font-weight: 700;
+                                    line-height: 1;
+                                    margin: 0;
+                                    padding: 15px;
+                                    border-bottom: 1px solid #d5d8dc;
+                                    cursor: pointer;
+                                    outline: none
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon {
+                                    display: inline-block;
+                                    width: 1em
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon svg {
+                                    margin-inline-start: -5px;
+                                    width: 1em;
+                                    height: 1em
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-right {
+                                    float: right;
+                                    text-align: right
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon.elementor-toggle-icon-left {
+                                    float: left;
+                                    text-align: left
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-closed {
+                                    display: block
+                                }
+
+                                .elementor-toggle .elementor-tab-title .elementor-toggle-icon .elementor-toggle-icon-opened {
+                                    display: none
+                                }
+
+                                .elementor-toggle .elementor-tab-title.elementor-active {
+                                    border-bottom: none
+                                }
+
+                                .elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-closed {
+                                    display: none
+                                }
+
+                                .elementor-toggle .elementor-tab-title.elementor-active .elementor-toggle-icon-opened {
+                                    display: block
+                                }
+
+                                .elementor-toggle .elementor-tab-content {
+                                    padding: 15px;
+                                    border-bottom: 1px solid #d5d8dc;
+                                    display: none
+                                }
+
+                                @media (max-width:767px) {
+                                    .elementor-toggle .elementor-tab-title {
+                                        padding: 12px
+                                    }
+                                    .elementor-toggle .elementor-tab-content {
+                                        padding: 12px 10px
+                                    }
+                                }
+
+                                .e-con-inner>.elementor-widget-toggle,
+                                .e-con>.elementor-widget-toggle {
+                                    width: var(--container-widget-width);
+                                    --flex-grow: var(--container-widget-flex-grow)
+                                }
+                            </style>
+                            <div class="elementor-toggle">
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1121" class="elementor-tab-title" data-tab="1" role="button" aria-controls="elementor-tab-content-1121" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">Is Cortexi right for me?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1121" class="elementor-tab-content elementor-clearfix" data-tab="1" role="region" aria-labelledby="elementor-tab-title-1121">
+                                        <p>Cortexi has provided amazing hearing support for men and women in their 30s, 40, 50s and even 70s. Because it was engineered based on teachings of modern science, Cortexi formula is very gentle yet very powerful
+                                            at the same time using pure plant ingredients and natural minerals. And you can rest assured knowing it&#8217;s manufactured in the United States in a state-of-the-art facility.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1122" class="elementor-tab-title" data-tab="2" role="button" aria-controls="elementor-tab-content-1122" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">What kind of results can I expect from Cortexi?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1122" class="elementor-tab-content elementor-clearfix" data-tab="2" role="region" aria-labelledby="elementor-tab-title-1122">
+                                        <p>Cortexi is a powerful and effective hearing support and all-day energy helper. Thousands of people enjoy taking Cortexi every day with great results and we have not received a single complaint yet. Once your body
+                                            adapts to the ingredients you will notice less noise and better ear health.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1123" class="elementor-tab-title" data-tab="3" role="button" aria-controls="elementor-tab-content-1123" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">How long will it take to see results?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1123" class="elementor-tab-content elementor-clearfix" data-tab="3" role="region" aria-labelledby="elementor-tab-title-1123">
+                                        <p>We&#8217;re all different and that&#8217;s why the time it takes to see results varies. Most people start feeling a difference after the first week. In our tests, the best results come when you take Cortexi consistently
+                                            for 3 months (or longer) to support and optimize your entire system. Therefore, we strongly recommend you take advantage of our 3 or 6 bottle discount package.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1124" class="elementor-tab-title" data-tab="4" role="button" aria-controls="elementor-tab-content-1124" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">What if Cortexi doesn’t work for me?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1124" class="elementor-tab-content elementor-clearfix" data-tab="4" role="region" aria-labelledby="elementor-tab-title-1124">
+                                        <p>I demand you are enthusiastic with your purchase, not just satisfied. And you won&#8217;t know until you try it! So you can use Cortexi for 60 days, with my &#8220;No Questions Asked 100% Money Back Guarantee&#8221;.
+                                            The only way to be totally convinced is to try this amazing formula and experience the results for yourself.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1125" class="elementor-tab-title" data-tab="5" role="button" aria-controls="elementor-tab-content-1125" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">Where can I buy Cortexi and how quickly can I get it?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1125" class="elementor-tab-content elementor-clearfix" data-tab="5" role="region" aria-labelledby="elementor-tab-title-1125">
+                                        <p>To make sure you are buying the original product and to ensure the purity of ingredients please buy here on the official website only. We&#8217;ll ship your order directly to your home or office using a premium
+                                            carrier such as FedEx or UPS. We strive to ship every order within 24 working hours and to make things easy you will receive an email with your tracking number so that you can follow your package. On average,
+                                            the package will arrive at your doorstep somewhere between 5 to 10 days for domestic orders.</p>
+                                    </div>
+                                </div>
+                                <div class="elementor-toggle-item">
+                                    <div id="elementor-tab-title-1126" class="elementor-tab-title" data-tab="6" role="button" aria-controls="elementor-tab-content-1126" aria-expanded="false">
+                                        <span class="elementor-toggle-icon elementor-toggle-icon-left" aria-hidden="true">
+															<span class="elementor-toggle-icon-closed"><i class="fas fa-caret-right"></i></span>
+                                        <span class="elementor-toggle-icon-opened"><i class="elementor-toggle-icon-opened fas fa-caret-up"></i></span>
+                                        </span>
+                                        <a class="elementor-toggle-title" tabindex="0">Is my purchase secure? How many times will you charge my card?</a>
+                                    </div>
+
+                                    <div id="elementor-tab-content-1126" class="elementor-tab-content elementor-clearfix" data-tab="6" role="region" aria-labelledby="elementor-tab-title-1126">
+                                        <p>To purchase Cortexi you are only asked for a one time payment right on this page. There are no other future payments needed to benefit from this product. This website is highly secure. We use industry-leading technology
+                                            (such as SSLs) to keep your information safe and private.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-387ce824 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="387ce824" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-26ae98d2" data-id="26ae98d2" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-5bd3022d elementor-widget elementor-widget-heading" data-id="5bd3022d" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Take advantage of this limited offer <br> to stock up on Cortexi while <br> supplies last!</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-1b0fd82e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1b0fd82e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-7a734680" data-id="7a734680" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-7697b3e3 elementor-widget elementor-widget-image" data-id="7697b3e3" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="383" height="822" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes.png" class="elementor-animation-grow attachment-medium_large size-medium_large wp-image-50" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes.png 383w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/6-bottes-140x300.png 140w" sizes="(max-width: 383px) 100vw, 383px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-2f99e840" data-id="2f99e840" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-196c1bb9 elementor-widget elementor-widget-image" data-id="196c1bb9" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="382" height="803" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes.png" class="elementor-animation-grow attachment-large size-large wp-image-49" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes.png 382w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/3-bottes-143x300.png 143w" sizes="(max-width: 382px) 100vw, 382px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-31fd87ab" data-id="31fd87ab" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-b857a73 elementor-widget elementor-widget-image" data-id="b857a73" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-widget-container">
+                            <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="384" height="801" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle.png" class="elementor-animation-grow attachment-large size-large wp-image-48" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle.png 384w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/1-bottle-144x300.png 144w" sizes="(max-width: 384px) 100vw, 384px" />								</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="elementor-element elementor-element-33347172 e-flex e-con-boxed e-con e-parent" data-id="33347172" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}" data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-6db082fa e-flex e-con-boxed e-con e-child" data-id="6db082fa" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-4fe467c7 e-flex e-con-boxed e-con e-child" data-id="4fe467c7" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                        <div class="e-con-inner">
+                            <div class="elementor-element elementor-element-7ce6311c elementor-widget elementor-widget-image" data-id="7ce6311c" data-element_type="widget" data-widget_type="image.default">
+                                <div class="elementor-widget-container">
+                                    <img decoding="async" loading="lazy" width="482" height="261" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay.png" class="attachment-large size-large wp-image-313" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay.png 482w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/11/pay-300x162.png 300w"
+                                        sizes="(max-width: 482px) 100vw, 482px" /> </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-39d336ad e-flex e-con-boxed e-con e-parent" data-id="39d336ad" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;content_width&quot;:&quot;boxed&quot;}"
+        data-core-v316-plus="true">
+        <div class="e-con-inner">
+            <div class="elementor-element elementor-element-6a331e6a e-flex e-con-boxed e-con e-child" data-id="6a331e6a" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;boxed&quot;}">
+                <div class="e-con-inner">
+                    <div class="elementor-element elementor-element-2d4ace2d elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="2d4ace2d" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p class="text-center medium">Scientific References:</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="elementor-element elementor-element-4a7cc576 elementor-widget elementor-widget-image" data-id="4a7cc576" data-element_type="widget" data-widget_type="image.default">
+                <div class="elementor-widget-container">
+                    <a href="https://bestofferhere.link/Cortexiofficial">
+							<img decoding="async" loading="lazy" width="1024" height="94" src="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/references-1024x94.png" class="attachment-large size-large wp-image-67" alt="" srcset="https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/references-1024x94.png 1024w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/references-300x27.png 300w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/references-768x70.png 768w, https://trycortexi.universalmarketweb.com/wp-content/uploads/2023/09/references.png 1115w" sizes="(max-width: 1024px) 100vw, 1024px" />								</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-63c01de elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="63c01de" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-10c10121" data-id="10c10121" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-639d40da elementor-widget elementor-widget-text-editor" data-id="639d40da" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p><span style="color: #ffffff;"><strong><a style="color: #ffffff;" href="https://trycortexi.com/info/contact.html" target="_blank" rel="noopener">Contact</a> l <a style="color: #ffffff;" href="https://trycortexi.universalmarketweb.com/index.php/references/" target="_blank" rel="noopener">References</a> l <a style="color: #ffffff;" href="https://trycortexi.universalmarketweb.com/index.php/terms/" target="_blank" rel="noopener">Terms</a> l <a style="color: #ffffff;" href="https://trycortexi.universalmarketweb.com/index.php/privacy/" target="_blank" rel="noopener">Privacy</a> l <a style="color: #ffffff;" href="https://trycortexi.com/info/return-policy.html" target="_blank" rel="noopener">Return Policy</a> l <a style="color: #ffffff;" href="https://trycortexi.com/info/shipping.html" target="_blank" rel="noopener">Shipping</a> l <a style="color: #ffffff;" href="https://trycortexi.universalmarketweb.com/index.php/disclaimer/" target="_blank" rel="noopener">Disclaimer</a></strong></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="elementor-section elementor-top-section elementor-element elementor-element-5dd43a2e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5dd43a2e" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7892e6ac" data-id="7892e6ac" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-28837ed2 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="28837ed2" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p>Statements on this website have not been evaluated by the Food and Drug Administration. Products are not intended to diagnose, treat, cure or prevent any disease. If you are pregnant, nursing, taking medication, or have a medical
+                                condition, consult your physician before using our products. Testimonials, case studies, and examples found on this page are results that have been forwarded to us by users products and related products are not intended
+                                to represent or guarantee that anyone will achieve the same or similar results.</p>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-434146fe elementor-widget elementor-widget-html" data-id="434146fe" data-element_type="widget" data-widget_type="html.default">
+                        <div class="elementor-widget-container">
+                            <script>
+                                // cannoli = awesomex10
+                                (function() {
+                                    const a = new URLSearchParams(window.location.search);
+                                    if (a.toString()) {
+                                        var b = document.getElementsByTagName('a');
+                                        for (var c = 0; c < b.length; c++) {
+                                            var d = b[c];
+                                            if (d.href.indexOf('?') === -1) {
+                                                d.href += '?' + a.toString();
+                                            } else {
+                                                d.href += '&' + a.toString();
+                                            }
+                                        }
+                                    }
+                                })();
+                            </script>
+                        </div>
+                    </div>
+                    <div class="elementor-element elementor-element-ffb48a8 elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="ffb48a8" data-element_type="widget" data-widget_type="text-editor.default">
+                        <div class="elementor-widget-container">
+                            <p><strong>© Cortexi Research 2023 All Rights Reserved.</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <style id="skip-link-styles">
+        .skip-link.screen-reader-text {
+            border: 0;
+            clip: rect(1px, 1px, 1px, 1px);
+            clip-path: inset(50%);
+            height: 1px;
+            margin: -1px;
+            overflow: hidden;
+            padding: 0;
+            position: absolute !important;
+            width: 1px;
+            word-wrap: normal !important;
+        }
+
+        .skip-link.screen-reader-text:focus {
+            background-color: #eee;
+            clip: auto !important;
+            clip-path: none;
+            color: #444;
+            display: block;
+            font-size: 1em;
+            height: auto;
+            left: 5px;
+            line-height: normal;
+            padding: 15px 23px 14px;
+            text-decoration: none;
+            top: 5px;
+            width: auto;
+            z-index: 100000;
+        }
+    </style>
+    <script>
+        (function() {
+            var skipLinkTarget = document.querySelector('main'),
+                sibling,
+                skipLinkTargetID,
+                skipLink;
+
+            // Early exit if a skip-link target can't be located.
+            if (!skipLinkTarget) {
+                return;
+            }
+
+            /*
+             * Get the site wrapper.
+             * The skip-link will be injected in the beginning of it.
+             */
+            sibling = document.querySelector('.wp-site-blocks');
+
+            // Early exit if the root element was not found.
+            if (!sibling) {
+                return;
+            }
+
+            // Get the skip-link target's ID, and generate one if it doesn't exist.
+            skipLinkTargetID = skipLinkTarget.id;
+            if (!skipLinkTargetID) {
+                skipLinkTargetID = 'wp--skip-link--target';
+                skipLinkTarget.id = skipLinkTargetID;
+            }
+
+            // Create the skip link.
+            skipLink = document.createElement('a');
+            skipLink.classList.add('skip-link', 'screen-reader-text');
+            skipLink.href = '#' + skipLinkTargetID;
+            skipLink.innerHTML = 'Pular para o conteúdo';
+
+            // Inject the skip link.
+            sibling.parentElement.insertBefore(skipLink, sibling);
+        }());
+    </script>
+    <link rel='stylesheet' id='e-animations-css' href='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.17.3' media='all' />
+    <script src='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.17.3' id='elementor-webpack-runtime-js'></script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.0' id='jquery-core-js'></script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1' id='jquery-migrate-js'></script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.17.3' id='elementor-frontend-modules-js'></script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2' id='elementor-waypoints-js'></script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+    <script id="elementor-frontend-js-before">
+        var elementorFrontendConfig = {
+            "environmentMode": {
+                "edit": false,
+                "wpPreview": false,
+                "isScriptDebug": false
+            },
+            "i18n": {
+                "shareOnFacebook": "Compartilhar no Facebook",
+                "shareOnTwitter": "Compartilhar no Twitter",
+                "pinIt": "Fixar",
+                "download": "Baixar",
+                "downloadImage": "Baixar imagem",
+                "fullscreen": "Tela cheia",
+                "zoom": "Zoom",
+                "share": "Compartilhar",
+                "playVideo": "Reproduzir v\u00eddeo",
+                "previous": "Anterior",
+                "next": "Pr\u00f3ximo",
+                "close": "Fechar",
+                "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+                "a11yCarouselPrevSlideMessage": "Previous slide",
+                "a11yCarouselNextSlideMessage": "Next slide",
+                "a11yCarouselFirstSlideMessage": "This is the first slide",
+                "a11yCarouselLastSlideMessage": "This is the last slide",
+                "a11yCarouselPaginationBulletMessage": "Go to slide"
+            },
+            "is_rtl": false,
+            "breakpoints": {
+                "xs": 0,
+                "sm": 480,
+                "md": 768,
+                "lg": 1025,
+                "xl": 1440,
+                "xxl": 1600
+            },
+            "responsive": {
+                "breakpoints": {
+                    "mobile": {
+                        "label": "Celular em modo retrato",
+                        "value": 767,
+                        "default_value": 767,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "mobile_extra": {
+                        "label": "Celular em modo paisagem",
+                        "value": 880,
+                        "default_value": 880,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "tablet": {
+                        "label": "Tablet Retrato",
+                        "value": 1024,
+                        "default_value": 1024,
+                        "direction": "max",
+                        "is_enabled": true
+                    },
+                    "tablet_extra": {
+                        "label": "Paisagem do tablet",
+                        "value": 1200,
+                        "default_value": 1200,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "laptop": {
+                        "label": "Laptop",
+                        "value": 1366,
+                        "default_value": 1366,
+                        "direction": "max",
+                        "is_enabled": false
+                    },
+                    "widescreen": {
+                        "label": "Widescreen",
+                        "value": 2400,
+                        "default_value": 2400,
+                        "direction": "min",
+                        "is_enabled": false
+                    }
+                }
+            },
+            "version": "3.17.3",
+            "is_static": false,
+            "experimentalFeatures": {
+                "e_dom_optimization": true,
+                "e_optimized_assets_loading": true,
+                "e_optimized_css_loading": true,
+                "additional_custom_breakpoints": true,
+                "container": true,
+                "e_swiper_latest": true,
+                "landing-pages": true,
+                "e_global_styleguide": true
+            },
+            "urls": {
+                "assets": "https:\/\/trycortexi.universalmarketweb.com\/wp-content\/plugins\/elementor\/assets\/"
+            },
+            "swiperClass": "swiper",
+            "settings": {
+                "page": [],
+                "editorPreferences": []
+            },
+            "kit": {
+                "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+                "global_image_lightbox": "yes",
+                "lightbox_enable_counter": "yes",
+                "lightbox_enable_fullscreen": "yes",
+                "lightbox_enable_zoom": "yes",
+                "lightbox_enable_share": "yes",
+                "lightbox_title_src": "title",
+                "lightbox_description_src": "description"
+            },
+            "post": {
+                "id": 232,
+                "title": "Cortexi",
+                "excerpt": "",
+                "featuredImage": false
+            }
+        };
+    </script>
+    <script src='https://trycortexi.universalmarketweb.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.3' id='elementor-frontend-js'></script>
+</body>
+
+</html>
+
+
+<!-- Page cached by LiteSpeed Cache 5.7.0.1 on 2023-11-08 19:09:27 -->
